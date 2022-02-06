@@ -1,38 +1,113 @@
-.App {
-  text-align: center;
+html,
+body {
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar{
+  display:flex;
+  justify-content:space-between;
+  /* margin: 1.6rem 1.6rem; */
+  padding: 1rem;
+  /* border: 1px solid red; */
+  background-color:blue;
+  color: gold;
+  font-size:1rem;
+  font-weight:bold;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.form-inline{
+  /* border: 1px solid black; */
+  padding-top: 0.6rem;
+}
+.form-control{
+  width:12rem;
+  height:2.4rem;
+  font-weight: bold;
+  border:2px solid white;
+  border-radius: 6px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+input[type="search"]:focus {
+  font-weight: 500;
+}
+
+.coin-container{
+  display:flex;
+  justify-content:space-between;
+  width:90%;
+  margin:auto;
+  /* border: 2px solid red; */
+  /* box-shadow: 1px gray; */
+  border-bottom: 2px solid gray;
+}
+
+.coin{
+  width:26%;
+  /* align-items:center; */
+  display:flex;
+  justify-content:center;
+}
+
+p{
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.coinn {
   display: flex;
-  flex-direction: column;
+  width:90%;
+  margin-left:auto;
+  margin-right:auto;
+  justify-content: space-between;
   align-items: center;
+  padding: 1em 0em;
+  border-top: 1px solid rgb(231, 228, 228);
+}
+
+.img-name-symbol{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 24%;
+  /* margin-left: 0.4rem; */
+  /* border: 2px solid blue; */
+}
+
+.img-name {
+  font-weight: bold;
+  display: flex;
+  /* width: 24%; */
+  /* border: 2px solid red; */
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+img {
+  width: 20px;
+  height: 20px;
+  /* margin: 0 8rem; */
+  margin-bottom: 2.5px;
+  /* border: 2px solid red; */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.coin-symbol {
+  /* border: 2px solid red; */
+  /* margin-left:2.4rem; */
+  font-weight:light;
+}
+
+.coin-name{
+  margin-left: 0.2rem;;
+}
+
+.Details{
+  display: flex;
+  justify-content: space-between;
+  /* border:1px solid red; */
+  width:64%;
+}
+
+.Details p {
+  font-weight: normal;
+  width:15%;
 }
